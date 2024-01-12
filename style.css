@@ -1,0 +1,30 @@
+body{
+  background-color: rgb(229, 198, 251);
+}
+
+img{
+  width: 400px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+h1{
+  font-family: arial;
+}
+
+a{
+  font-family: arial;
+}
+
+ol, ul{
+  color: green;
+}
+
+.grid-container{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+.grid-item{
+  padding: 20px;
+}
+
