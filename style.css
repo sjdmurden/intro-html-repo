@@ -2,29 +2,33 @@ body{
   background-color: rgb(229, 198, 251);
 }
 
-img{
-  width: 400px;
-  border-radius: 50%;
-  border: 2px solid black;
-}
+
 
 h1{
-  font-family: arial;
+  font-family: "century gothic";
+  font-size: xxx-large;
+  color: #530f7d;
+  border-bottom: 3px solid black;
+  text-align: center;
 }
 
-a{
-  font-family: arial;
-}
 
-ol, ul{
-  color: green;
+section{
+  display: flex;
+  justify-content: center;
 }
 
 .grid-container{
   display: inline-grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  width: 360px;
+  height: 360px;
 }
 .grid-item{
-  padding: 20px;
+  background: linear-gradient(to bottom, #D5CABD, #4E8397, #845EC2);  
+  border-radius: 20%;
+  box-shadow: 10px 8px 10px 5px rgb(58, 18, 99);}
+.grid-item :hover{
+  transform: scale(1.2);
 }
-
